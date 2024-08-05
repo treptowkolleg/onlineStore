@@ -49,3 +49,6 @@ class Person
     use LabelTrait;
 }
 ````
+
+Nun verfügt die Klasse ``Person`` über das ``$label``-Attribut sowie über
+den **Getter**, den **Setter** und die implementierte ``__toString()``-Methode.
