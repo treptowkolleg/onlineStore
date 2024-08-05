@@ -1,2 +1,19 @@
 {
+  "name": "treptowkolleg/online-store",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "TreptowKolleg\\OnlineStore\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "AG Informatik",
+      "email": "123292918+treptowkolleg@users.noreply.github.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=8.1"
+  }
 }
