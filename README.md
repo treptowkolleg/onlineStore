@@ -4,5 +4,5 @@ Lernprojekt zum Kennenlernen von
 
 - (abstrakten) Klassen
 - Interfaces
-- Traits
+- [Traits](/docs/traits.md)
 - Enums
