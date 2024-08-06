@@ -2,7 +2,7 @@
 
 Lernprojekt zum Kennenlernen von
 
-- (abstrakten) Klassen
+- [(abstrakten) Klassen](/docs/classes.md)
 - Interfaces
 - [Traits](/docs/traits.md)
 - Enums
