@@ -50,3 +50,22 @@ class PayPal implements PaymentMethod
 }
 
 ````
+
+````php
+<?php
+
+class OnlineShop
+{
+    
+    public function buy(Product $product, PaymentMethod $payment): void
+    {
+        if($payment->withdraw($product->getPrice())) {
+            echo "$product wurde gekauft.";
+        } else {
+            echo "Nicht genug Geld verfügbar.";
+        }
+    }
+    
+}
+
+````
