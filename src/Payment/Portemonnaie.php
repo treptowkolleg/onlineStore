@@ -2,7 +2,7 @@
 
 namespace TreptowKolleg\OnlineStore\Payment;
 
-class PayPal implements OnlinePaymentInterface
+class Portemonnaie implements OfflinePaymentInterface
 {
 
     private float $balance;
@@ -39,5 +39,4 @@ class PayPal implements OnlinePaymentInterface
     {
         return $this->balance;
     }
-
 }

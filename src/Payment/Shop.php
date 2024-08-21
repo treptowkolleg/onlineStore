@@ -8,12 +8,12 @@ class Shop
 
     public function __construct
     (
-        private PaymentInterface $bankAccount
+        private OnlinePaymentInterface $bankAccount
     )
     {
     }
 
-    public function buy(Product $product, PaymentInterface $payment): void
+    public function buy(Product $product, OnlinePaymentInterface $payment): void
     {
         echo "Sie haben {$payment->getBalance()} Geld zur Verfügung." . PHP_EOL;
         sleep(2);
@@ -30,12 +30,12 @@ class Shop
         }
     }
 
-    public function getBankAccount(): PaymentInterface
+    public function getBankAccount(): OnlinePaymentInterface
     {
         return $this->bankAccount;
     }
 
-    public function setBankAccount(PaymentInterface $bankAccount): void
+    public function setBankAccount(OnlinePaymentInterface $bankAccount): void
     {
         $this->bankAccount = $bankAccount;
     }
